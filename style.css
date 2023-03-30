@@ -1,0 +1,128 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+  
+  .product-card{
+    display: flex;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px auto;
+  }
+  
+  .product-content{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .product-content p{
+     text-transform: capitalize;
+  }
+  
+  .product-image img{
+    width: 300px;
+    border-radius: 10px 0 0 10px ;
+    
+  }
+  
+  .product-content p:nth-child(1){
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .price{
+    display: flex;
+    align-items: center;
+  }
+  
+  .price h1{
+    color : hsl(158, 36%, 37%)
+  }
+  
+  .price p{
+    text-decoration: line-through;
+  }
+  
+  h1{
+    width: 180px;
+    text-transform: capitalize;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+  }
+
+  button{
+    padding: 10px;
+    background-color : hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 5px;
+  }
+
+
+
+@media screen and (max-width : 375px) {
+
+  *{
+    margin: 0%;
+  }
+  
+  .product-card{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+  
+  .product-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+  }
+  
+  .product-content p{
+     text-transform: capitalize;
+  }
+  
+  .product-image img{
+    width: 320px;
+    border-radius: 10px 10px 0 0 ;
+  }
+  
+  .product-content p:nth-child(1){
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .h1{
+    width: 100%;
+  }
+  
+  .price{
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .price h1{
+    color : hsl(158, 36%, 37%);
+  }
+  
+  .price p{
+    text-decoration: line-through;
+  }
+  
+  h1{
+    text-transform: capitalize;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+  }
+
+}
